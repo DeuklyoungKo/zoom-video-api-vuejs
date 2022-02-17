@@ -1,10 +1,15 @@
 # Zoom video api in vuejs
+* It is for test of [Zoom Video SDK](https://marketplace.zoom.us/docs/api-reference/introduction/)
 
-#### It is for test
-
+* You have to get a [Zoom Video SDK account](https://marketplace.zoom.us/docs/sdk/video/web/build/sample-app)
+    
+***
 ## Project setup
 ```
 npm install
+set .env file
+    VUE_APP_SDK_KEY="[your sdk key]"
+    VUE_APP_SDK_SECRET="[your sdk secret]"
 ```
 
 ### Compiles and hot-reloads for development
