@@ -51,7 +51,7 @@ import { KJUR } from 'jsrsasign';
 import dotenv from 'dotenv';
 
 export default {
-  name: 'test1',
+  name: 'ZoomVideoApi',
   props: {
     msg: String
   },

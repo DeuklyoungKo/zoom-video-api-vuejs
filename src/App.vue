@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <test1 msg="Welcome to Your Vue.js App"/>
+    <ZoomVideoApi msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import test1 from './components/test1.vue'
+import ZoomVideoApi from './components/ZoomVideoApi.vue'
 
 export default {
   name: 'App',
   components: {
-    test1
+    ZoomVideoApi
   }
 }
 </script>
