@@ -7,7 +7,7 @@
 ## Project setup
 ```
 npm install
-set .env file
+set .env file in root folder
     VUE_APP_SDK_KEY="[your sdk key]"
     VUE_APP_SDK_SECRET="[your sdk secret]"
 ```
@@ -30,11 +30,20 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+***
+## Used Api
+[Font Awesome](https://fontawesome.com/v6/docs/web/use-with/vue/)
 
 
-### issue
+___
+## Issue
 
-* 2022-02-17 Zoom video api is not working in chrome but Firefox is ok  
+
+
+* 2022-02-18 firefox 97.0.1, Microsoft Edge 98.0.1108.55 is not support MultipleVideos()  
+ref) https://devforum.zoom.us/t/video-rendered-in-incorrect-position/57158/5
+
+* 2022-02-17 Zoom video api is not working in chrome 98.0.4758.102, Microsoft Edge 98.0.1108.55 but Firefox is ok  
 ref) https://devforum.zoom.us/t/invalid-parameters-you-must-pass-a-video-element-to-start-video-capture-for-chromium-browser/62011
 ```
 {
