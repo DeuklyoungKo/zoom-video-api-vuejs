@@ -57,8 +57,6 @@ export default {
   },
   data() {
       return {
-        // SDK_KEY: "hsdkxZJ6xnVoUC0y9EYTG5dlyhopWGZIRNMB",
-        // SDK_SECRET: "hWP5dgZ4X4ecD1czdXjKqm66Ngy7rTbLsNA6",
         SDK_KEY: null,
         SDK_SECRET: null,
         session_name : "세션네임",
